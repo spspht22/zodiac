@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<!-- media queries -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- character set -->
+		<meta charset="utf-8">
+		<!-- title -->
+		<title>ZODIAC</title>
+		<!-- google font -->
+		<link href="https://fonts.googleapis.com/css?family=Spectral+SC:600" rel="stylesheet">
+		<!-- Font awesome -->
+		<link rel="stylesheet" href="css/font-awesome.css">
+		<!-- bootstrap CDN-->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<!-- css Reset -->
+		<link rel="stylesheet" href="css/reset.css">
+		<!-- Animate css -->
+		<link rel="stylesheet"  href="css/animate.css">
+		<!-- main css -->
+		<link rel="stylesheet" href="css/main.css">
+	</head>
+	<body>
+		<div class="container">
+			<div class="row justify-content-lg-center">
+				<div class="col-lg-8 text-center">
+					<h1 class="text-white title">Zodiac Signs
+					<br>
+					All About the 12 Horoscope signs
+					</h1>
+				</div>
+			</div>
+		</div>
+	
+		<!-- zodiac sign generator -->
+		<div class="signinput text-center">
+			<input id="zodiac" type="text" name="" placeholder="Whats your Sign?">
+		<button class="btn-info py-3 px-2" onclick="findZodiac();" type="button">Click Here</button>
+		</div>
+		
+		<div class="zodiac-content py-4">
+			<div class="container">
+				<div class="row justify-content-lg-center justify-content-md-center">
+					<div class="col-lg-10 col-md-10">
+						<div class="displayinfo">
+							<img class="img-fluid" id="zodiacPic" alt="A logo picture of the zodiac sign you searched for">
+							<div class="row justify-content-end">
+								<div class=" col-lg-6 col-md-5 absolute">
+									<h1 class="text-uppercase text-white" id="sign"></h1>
+									<p class="font-italic text-white" id="dates"></p>
+									<p class="lead text-white" id="zodiacDesc"></p>
+								</div>
+							</div>	
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+			
+		<!-- jquery CDN -->
+		<script
+		src="https://code.jquery.com/jquery-3.3.1.min.js"
+		integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+		crossorigin="anonymous"></script>
+		<!-- scrollto js -->
+		<script src="js/jquery.scrollTo.min.js"></script>
+		<!-- custom js -->
+		<script src="js/main.js"></script>
+	</body>
+</html>

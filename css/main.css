@@ -1,0 +1,45 @@
+body {
+	background-image: url("https://cdn.pixabay.com/photo/2017/08/09/20/42/abstract-2615764_1280.jpg");
+	/*background-position: center;*/
+	background-size: cover;
+}
+
+.title {
+	font-family: 'Spectral SC', serif;
+}
+
+img {
+	text-indent: -9999px;
+	border-radius: 10px;
+}
+
+.absolute {
+	position: absolute;
+	top: 10px; 
+	background-color: #1e191973;
+    right: 15px;
+}
+
+/*button*/
+button {
+	border: none;
+    border-radius: 3px;
+}
+
+/*input*/
+#zodiac {
+	padding: 14px;
+    border-radius: 3px;
+    border: 1px cyan solid;
+}
+
+[alt="A logo picture of the zodiac sign you searched for"] {
+	display: none;
+}
+
+/*media queries*/
+@media (max-width: 767px) {
+	.absolute {
+		position: static;
+	}
+}
